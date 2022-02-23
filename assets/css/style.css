@@ -46,7 +46,7 @@ COMMON RULES
 
 #site_header{
     background-color:red;
-    height: 60vh;
+    height: 80vh;
 }
 
 
@@ -60,7 +60,7 @@ COMMON RULES
 
 
 
-.nav_cl_sm{
+.nav_col_sm{
 
     height: 80px;
     margin:1%;
@@ -70,7 +70,7 @@ COMMON RULES
 }
 
 
-.nav_cl_lg{
+.nav_col_lg{
     height: 80px;
     margin:1%;
     width: 54%;
@@ -120,12 +120,35 @@ COMMON RULES
 
 }
 
-
 .bottom{
     background-color:violet;
     height: 100vh;
     margin:20px auto;
 }
+
+
+
+.row_col_sm {
+    height: 500px;
+    margin:1%;
+    width: 41%;
+    float:left;
+    background-color: green;
+
+}
+
+
+.row_col_md {
+
+    height: 500px;
+    margin:1%;
+    width: 55%;
+    float:left;
+    background-color: green;
+}
+
+/* Footer
+********** */
 
 
 #site_footer{
