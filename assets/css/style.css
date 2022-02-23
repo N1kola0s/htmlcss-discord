@@ -44,8 +44,11 @@ COMMON RULES
 
 
 #site_header{
-    background-color:red;
-    height: 80vh;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 83vh;
 }
 
 
