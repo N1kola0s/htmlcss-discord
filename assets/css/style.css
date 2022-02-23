@@ -23,6 +23,7 @@ COMMON RULES
     --blue_btn-color: #8EA1E1; 
     --dark_btn-color: #23272A;
     --light_btn-color: #FFFFFF;
+    --bg_evensection-color: #F6F6F6;
 }
 
 /* Utility */
@@ -189,49 +190,72 @@ li>a{
 
 
 #site_main {
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 .odd{
-    background-color:grey;
-    height: 100vh;
-    margin: 0px auto 20px;
+    /* background-color:grey; */
+    /* height: 100vh; */
+    padding: 0px auto 20px;
 
 }
 
 
+.even{
+    background-color: var(--bg_evensection-color);
+}
+
 .even{ 
-    background-color:aliceblue;
-    height:100vh;
-    margin:20px auto;
+    /* background-color:aliceblue; */
+    /* height:100vh; */
+    padding:20px auto;
 
 }
 
 .bottom{
     background-color:violet;
     height: 100vh;
-    margin:20px auto 0;
+    padding:20px auto 0;
 }
 
 
 
 .row_col_sm {
-    height: 500px;
+    /* height: 500px; */
     margin:1%;
     width: 41%;
     float:left;
-    background-color: green;
+    /* background-color: green; */
 
+}
+
+
+.row_col_sm>h2{
+    padding: 2rem 5rem;
+    text-align: left;
+    font-size: 2.5rem;
+    /* margin: 2rem 0; */
+    color:var(--dark_text-color)
+    
+}
+
+
+.row_col_sm>p{
+    
+    color:var(--dark_text-color);
+    font-size: 18px;
+    text-align: left;
+    padding: 0 5rem;
 }
 
 
 .row_col_md {
 
-    height: 500px;
+    /* height: 500px; */
     margin:1%;
     width: 55%;
     float:left;
-    background-color: green;
+    /* background-color: green; */
 }
 
 
