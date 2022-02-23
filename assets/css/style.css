@@ -56,7 +56,7 @@ COMMON RULES
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 80vh;
+    height: 650px;
 }
 
 
@@ -64,7 +64,7 @@ COMMON RULES
 
 
 .navbar{
-    background-color:var(--bg_navbar-color);
+   
 }
 
 
@@ -78,6 +78,13 @@ COMMON RULES
     /* background-color: beige; */
 }
 
+
+.left {
+    line-height: 135px;
+    vertical-align: middle;
+    }
+
+
 .nav_col_sm>.btn{
     background-color:var(--light_btn-color);
     color:var(--dark_text-color);
@@ -90,7 +97,6 @@ COMMON RULES
 
 
 .nav_col_sm>img {
-    height:80px;
     width: 100%;
 }
 
@@ -133,7 +139,7 @@ li>a{
 
 .hero_container{
     position:relative;
-    height:calc(80vh - 130px);
+    height:calc(650px - 380px);
 }
 
 .hero_elements{
