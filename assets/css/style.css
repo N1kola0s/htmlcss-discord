@@ -1,0 +1,32 @@
+/*********** 
+COMMON RULES
+************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Colors */
+
+
+:root {
+    --lighter_text-color: white;
+    --dark_text-color: #23272A;
+    --footer_text-color: #7086D5; 
+    --bg_navbar-color: #3161E0; 
+    --bg_btn-color: #8EA1E1; 
+}
+
+/* Utility */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
