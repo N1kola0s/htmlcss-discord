@@ -33,7 +33,7 @@ COMMON RULES
 
 .format{
 
-    margin:auto;
+    margin:0 auto;
     width: 1200px;
     background-color: aqua;
     height: 500px;
@@ -154,4 +154,34 @@ COMMON RULES
 #site_footer{
     background-color: var(--dark_text-color);
     height: 60vh;
+}
+
+
+.footerrow_col_md {
+
+    height: 200px;
+    margin:1%;
+    width: 30%;
+    float:left;
+    background-color: green;
+}
+
+.footerrow_col_sm {
+    height: 200px;
+    margin:1%;
+    width: 15%;
+    float:left;
+    background-color: green;
+
+}
+
+
+.footerrow_col_full{
+    margin:0 1%;
+    height:100px;
+    width:98%;
+    float: left;
+    margin-bottom:16px;
+    background-color: green;
+
 }
