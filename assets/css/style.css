@@ -40,13 +40,17 @@ COMMON RULES
 }
 
 
-/* header */
+/* header
+************/
 
 
 #site_header{
     background-color:red;
     height: 100vh;
 }
+
+
+/* navbar */
 
 
 .navbar{
@@ -72,5 +76,24 @@ COMMON RULES
     width: 54%;
     float: left;
     background-color:beige;
+}
+
+/* hero_elements*/
+
+
+.hero_container{
+    position:relative;
+}
+
+.hero_elements{
+    margin: 50px 0;
+    height: 300px;
+    width: 800px;
+    background-color: pink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
