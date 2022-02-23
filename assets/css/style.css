@@ -35,8 +35,7 @@ COMMON RULES
 
     margin:0 auto;
     width: 1200px;
-    background-color: aqua;
-    height: 500px;
+    height: 400px;
 }
 
 
@@ -86,7 +85,7 @@ COMMON RULES
 }
 
 .hero_elements{
-    margin: 50px 0;
+    margin-top: 100px;
     height: 300px;
     width: 800px;
     background-color: pink;
@@ -108,7 +107,7 @@ COMMON RULES
 .odd{
     background-color:grey;
     height: 100vh;
-    margin: 20px auto;
+    margin: 0px auto 20px;
 
 }
 
@@ -123,7 +122,7 @@ COMMON RULES
 .bottom{
     background-color:violet;
     height: 100vh;
-    margin:20px auto;
+    margin:20px auto 0;
 }
 
 
@@ -145,6 +144,26 @@ COMMON RULES
     width: 55%;
     float:left;
     background-color: green;
+}
+
+
+
+.bottom{
+
+    position:relative;
+}
+
+
+.bottom_container{
+
+    height: 400px;
+    width: 800px;
+    background-color: rgb(131, 29, 190);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 /* Footer
