@@ -65,23 +65,27 @@ COMMON RULES
 .nav_col_sm{
 
     height: 80px;
-    margin:1%;
     width: 20%;
     float:left;
     position:relative;
+    padding:1%;
     
     /* background-color: beige; */
 }
 
 
 .nav_col_sm>.btn{
-    height:100px;
-    width: 200px;
     background-color:white;
-    color:#3161E0;
-    border-radius:15%;
+    color:var(--dark_text-color);
+    border-radius:25%;
+    padding:20px;
 }
 
+
+.right{
+    text-align: right;
+    line-height: 80px;
+}
 
 
 .nav_col_sm>img {
@@ -91,17 +95,17 @@ COMMON RULES
 
 .nav_col_lg{
 
-    margin:1%;
     width: 54%;
     float: left;
     /* background-color:beige; */
     position:relative;
+    padding:1%;
     
 }
 
 
 .menu>ul {
-    padding: 20px;
+    padding: 10px;
     position:absolute;
     top: 50%;
     left: 50%;
@@ -109,7 +113,7 @@ COMMON RULES
     
 }
 .menu>li{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color:var(--lighter_text-color);
     margin:auto;
