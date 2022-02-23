@@ -46,7 +46,7 @@ COMMON RULES
 
 #site_header{
     background-color:red;
-    height: 100vh;
+    height: 60vh;
 }
 
 
@@ -129,6 +129,6 @@ COMMON RULES
 
 
 #site_footer{
-    background-color:red;
+    background-color: var(--dark_text-color);
     height: 60vh;
 }
