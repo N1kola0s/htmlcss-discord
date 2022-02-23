@@ -97,3 +97,38 @@ COMMON RULES
 
 }
 
+/* Main
+********** */
+
+
+#site_main {
+    background-color: orange;
+}
+
+.odd{
+    background-color:grey;
+    height: 100vh;
+    margin: 20px auto;
+
+}
+
+
+.even{ 
+    background-color:aliceblue;
+    height:100vh;
+    margin:20px auto;
+
+}
+
+
+.bottom{
+    background-color:violet;
+    height: 100vh;
+    margin:20px auto;
+}
+
+
+#site_footer{
+    background-color:red;
+    height: 60vh;
+}
