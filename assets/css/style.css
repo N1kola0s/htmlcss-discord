@@ -19,7 +19,9 @@ COMMON RULES
     --dark_text-color: #23272A;
     --footer_text-color: #7086D5; 
     --bg_navbar-color: #3161E0; 
-    --bg_btn-color: #8EA1E1; 
+    --blue_btn-color: #8EA1E1; 
+    --dark_btn-color: #23272A;
+    --light_btn-color: #FFFFFF;
 }
 
 /* Utility */
@@ -35,7 +37,12 @@ COMMON RULES
 
     margin:0 auto;
     width: 1200px;
-    height: 400px;
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 10px 50px;
+    font-weight: bold;
 }
 
 
@@ -48,7 +55,7 @@ COMMON RULES
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 60vh;
+    height: 100vh;
 }
 
 
@@ -56,15 +63,12 @@ COMMON RULES
 
 
 .navbar{
-    height: 80px;
     background-color:var(--bg_navbar-color);
 }
 
 
 
 .nav_col_sm{
-
-    
     width: 20%;
     float:left;
     position:relative;
@@ -73,14 +77,10 @@ COMMON RULES
     /* background-color: beige; */
 }
 
-
 .nav_col_sm>.btn{
-    background-color:white;
+    background-color:var(--light_btn-color);
     color:var(--dark_text-color);
-    border-radius:25%;
-    padding:20px;
 }
-
 
 .right{
     text-align: right;
@@ -114,24 +114,28 @@ COMMON RULES
     transform: translate(-50%, -50%);
     
 }
+
 .menu>li{
     font-size: 16px;
     font-weight: 500;
-    color:var(--lighter_text-color);
     margin:auto;
     display:inline-block;
     padding: 20px;
    
 }
+
 /* hero_elements*/
+li>a{
+    color:var(--lighter_text-color);
+}
 
 
 .hero_container{
     position:relative;
+    height:calc(100vh - 108px);
 }
 
 .hero_elements{
-    height: 300px;
     width: 850px;
     /* background-color: pink; */
     position: absolute;
@@ -142,10 +146,27 @@ COMMON RULES
 }
 
 
+.hero{
+    text-align:center;
+    margin:2rem 0;
+}
+
+
+
 .hero.text{
     color:var(--lighter_text-color);   
 }
 
+.hero a:first-child{
+    background-color:var(--light_btn-color);
+    color:var(--dark_text-color);
+}
+
+
+.hero a:last-child{
+    background-color: var(--dark_btn-color);
+    color:var(--lighter_text-color);
+}
 
 .hero.text>h1{
     text-align: center;
