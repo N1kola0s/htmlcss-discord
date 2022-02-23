@@ -30,3 +30,47 @@ COMMON RULES
     clear:both;
 }
 
+
+.format{
+
+    margin:auto;
+    width: 1200px;
+    background-color: aqua;
+    height: 500px;
+}
+
+
+/* header */
+
+
+#site_header{
+    background-color:red;
+    height: 100vh;
+}
+
+
+.navbar{
+    height: 100px;
+    background-color: #7086D5;
+}
+
+
+
+.nav_cl_sm{
+
+    height: 80px;
+    margin:1%;
+    width: 20%;
+    float:left;
+    background-color: beige;
+}
+
+
+.nav_cl_lg{
+    height: 80px;
+    margin:1%;
+    width: 54%;
+    float: left;
+    background-color:beige;
+}
+
